@@ -1,0 +1,63 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  welcome: "Welcome"
+#NAVBAR
+  Homepage: "Homepage"
+  About: "About us"
+  Gallery: "Gallery"
+  Contact: "Contact us"
+  Welcome: "Welcome"
+#CONTENT
+  about1: "First of all thank you very much for your attention presenting and honoring the Bugacku Fashion 
+
+products and their world.
+
+The Bugacku is more than a brand name, it is also a feeling. It is a sensation revealing your genuine face 
+
+to the world and your reality. 
+
+A cloth and an accessory present everybody with different feelings. It makes them unique. 
+
+I, the creator of Bugacku Fashion have thought of contribution to attractiveness and virtue since my 
+
+childhood.  I have known that I cannot offer my assistance to everybody but I have desired to give the 
+
+most wondering and thinking of wishing for fascination of smile on faces and hearts. 
+
+The years have lapsed and I looked for the solution. And suddenly, in a morning I got up with a question: 
+
+“Why do not you do what you really enjoy? That is to give creation.”
+
+Thus I found the answer to my question: my great dream of my life is fashion designing.
+
+Every lady likes wearing nice cloths and beaming self confidence.
+
+I know that a fabulous cloth can make miracle. 
+
+The origin our future vision, faith and mission is there. 
+
+Yours sincerely
+
+Helena Brenner"
+  

@@ -1,0 +1,66 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+al:
+  hello: "Hello world"
+  welcome: "Welcome"
+  #NAVBAR
+  Homepage: "Kreu"
+  About: "Rreth nesh"
+  Gallery: "Galeri"
+  Contact: "Kontakt"
+  Welcome: "Ju përshëndes"
+#CONTENT
+  about1: "Në fillim desha të falendoroj për vëmëndjen tuaj ndaj njerëzve të  Bugacku Fashion! Bugacku
+
+Fashion nuk është vetëm një emër por një kënaqësi! Një kënaqësi e cila jep tek njerëzit pamjen 
+
+tuaj të vërtet!
+
+E njëjta rrobë a produkt dhuron kënaqësi të ndryshme tek çdo njeri! Kështu bëhesh i veçantë.
+
+Mua, prodhimet e Bugacku Fashion, që në fëmijëri më ngacmonte idea, si mund të ndihmoj, si të 
+
+arrij në vlerat e bukurisë. E dija që nuk kam rast të jap fjalën tek të gjithë për të dhuruar, por 
+
+fillova të besoja tek idea ime. Mendoja si mund të jepja më shumë, me ç`farë menyre të tregoja, 
+
+kënaqësinë në fytyra dhe gëzim në zemrat! Kaluan vite dhe unë vështirësohesha, duke kërkuar 
+
+përgjiqen.
+
+Një mëngjes të bukur u çova me këtë ide: Pse nuk bëj atë që të bën të gëzuar? Prodhon dhe 
+
+shpërndan!
+
+Ëndrra ime e vjetër, modelet më jepnin rezultat në problemin tim. Se çdo femër pëlqen të veshi 
+
+rroba të bukura, të entuziazmoj më veshjen e saj dhe të krijoj vetëbesim.
+
+E dija gjithashtu që një pjesë e bukur mund të jetë një përfundim të mrekullueshëm!
+
+Kjo mënyrë përcakton dhe besimin tonë. Nxirr përfundimin dhe tregoju njerëzve veten tuaj 
+
+nëpërmjet produkteve tona!
+
+Me respekt,
+
+Helena Bremmer"

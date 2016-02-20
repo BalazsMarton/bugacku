@@ -1,0 +1,76 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+de:
+  hello: "Hello Welt"
+  welcome: "Wilkommen"
+#NAVBAR
+  Homepage: "Heimseite"
+  About: "Über uns"
+  Gallery: "Galerie"
+  Contact: "Kontakt"
+  Welcome: "Willkommen"
+#CONTENT
+  about1: "Zunächst möchte ich mich für Deine Aufmerksamkeit bedanken, die Du den Produkten und
+
+der Welt von Bugacku Fashion geschenkt und gewidmet hast!
+
+Bugacku ist nicht nur ein Name, sondern auch ein Gefühl! Es ist ein Gefühl, dass Dein 
+
+wirkliches Gesicht der Welt zeigt, die Person, die Du wirklich bist!   
+
+Das gleiche Kleid und Zubehör beschenken jede mit unterschiedlichen Gefühlen! Eben 
+
+dadurch wird jedes Stück eigenartig! 
+
+Ich als Erträumerin von Bugacku Fashion habe mich schon als Kind damit beschäftigt, 
+
+wie ich helfen und zu dem Schönen und Guten beitragen könnte.
+
+Ich wusste, dass ich nicht jeden Mensch ansprechen kann, um meine Hilfe anzubieten, aber es 
+
+war mein Anliegen, während ich viel nachgedacht habe, wie ich doch mehr geben kann, wie 
+
+ich Lächeln auf die Gesichter und in die Herzen abnötigen kann! 
+
+Die Jahre sind vergangen, wobei ich in der Suche nach der Antwort viel probiert habe. Dann, 
+
+an einem Morgen bin ich mit der Frage aufgewacht – Wieso tust du nicht, woran du Freude 
+
+findest? Geben durch Schaffen! - 
+
+So ist als Lösung, als Antwort auf meine Frage mein langgehegter großer Traum gekommen: 
+
+Modedesign. 
+
+Jede Frau mag schöne Kleider tragen, sich Selbstsicherheit strahlend, schick kleiden.
+
+Ich weiß, dass ein einfaches Kleidungsstück Wunder tut!
+
+Unser Zukunftsbild, unser Glaubensbekenntnis und unsere Mission stammen aus dieser 
+
+Quelle! 
+
+Entdecke Dich selbst durch uns und zeige Dich selbst kühn der Welt!
+
+Mit freundlichen Grüssen,
+
+Helena Brenner"

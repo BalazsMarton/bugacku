@@ -1,0 +1,78 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  hello: "Hello world"
+  welcome: "Welcome"
+#NAVBAR
+  Homepage: "Page d'accueil"
+  About: "Sur nous"
+  Gallery: "Galerie de photos"
+  Contact: "Contact"
+  Welcome: "Bienvenue"
+#CONTENT
+  about1: "Avant tout, je voudrais vous remercier toute l'attention que vous portez pour les produits et le 
+
+monde de Bugacku Fashion.
+
+Bugacku n'est pas seulement un nom, mais aussi un état d'esprit. Un état d'esprit qui permet 
+
+de montrer votre vrai visage au monde, une image qui est réellement la vôtre.
+
+Le même vêtement ou accessoire procure à chacune un sentiment différent. C'est ce qui 
+
+explique leur caractère unique.
+
+En tant que fondatrice de Bugacku Fashion, je m'efforçais de trouver dès mon plus jeune 
+
+âge comment pourrais-je créer quelque chose de beau et de bon.
+
+Je savais qu'il m'était impossible de m'adresser à tout le monde en proposant mon aide, mais 
+
+le désir de le faire tout de même en quelque sorte m'a incité à réfléchir à la manière qui me 
+
+permet de donner le plus possible, de faire apparaître des sourires sur les visages et du 
+
+bonheur dans les cœurs.
+
+Les années sont passées l'une après l'autre, j'ai fais différents essais en cherchant la réponse. 
+
+Puis, un matin, je me suis posé la question : pourquoi ne ferais-tu pas ce qui te fais également 
+
+plaisir ? Donner tout en créant ! -
+
+C'est ainsi que la réponse s'est cristallisée à ma question, le stylisme, un grand projet que j'ai 
+
+caressé depuis longtemps.
+
+Toutes les femmes aiment porter de beaux vêtements qui leur confèrent de l'élégance et de la 
+
+confiance en soi.
+
+Je sais qu'un magnifique vêtement peut faire des miracles.
+
+Notre vision, mission et credo proviennent de cette source.
+
+Découvrez vous-même à notre aide et montrez-vous au monde !
+
+Avec mes  remerciements,
+
+Helena Brenner"

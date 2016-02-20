@@ -1,0 +1,37 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+	background-color:#1A1C1B;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:white;
+	text-decoration: none;
+}
+
+h1{
+color:white;
+}
+
+p{
+	color:white;
+}
+
+#full-navbar{
+	background-color: rgba(255,255,255,0.3);
+}
+
+#tartalom{
+	background-color: rgba(255,255,255,0.3);
+	min-height:50vh;
+	padding: 0 0 0 0;
+}
+
+#local-teszt{
+	color: white;
+}
+
+#slideshow{
+
+}

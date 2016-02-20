@@ -1,0 +1,70 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+hu:
+#TESZT
+  hello: "Hello Világ"
+  welcome: "Üdvözöljük"
+#NAVBAR
+  Homepage: "Főoldal"
+  About: "Rólunk"
+  Gallery: "Galéria"
+  Contact: "Kontakt"
+  Welcome: "Köszöntelek"
+#CONTENT
+  about1: "Mindenekelőtt, szeretném megköszönni figyelmed, amellyel megajándékoztad és megtisztelted 
+
+a Bugacku Fashion termékeit és világát!
+
+A Bugacku nem csak egy név, hanem egy érzés is! Egy olyan érzés, amely megmutatja valódi 
+
+arcodat a világnak, azt, aki valójában vagy!   
+
+Ugyan az a ruha, kiegészítő mindenkit más és más érzéssel ajándékoz meg! Épp ettől válik 
+
+egyedivé mind! 
+
+Engem, mint a Bugacku Fashion megálmodóját, gyermekként is már az foglalkoztatott, 
+
+hogy hogyan tudnék segíteni, hozzájárulni a széphez, a jóhoz.
+
+Tudtam, hogy minden embert nem szólíthatok meg, hogy segítségem felajánljam, de a vágy ott 
+
+égett bennem, miközben sokáig azon tűnődtem, gondolkodtam, miként adhatok mégis a 
+
+legtöbbet, miként adhatok, varázsolhatok mosolyt az arcokra és a szívekbe! 
+
+Múltak az évek, miközben sok mindent megpróbáltam, keresve a választ. Aztán, egy reggel egy 
+
+kérdésre ébredtem - Miért nem azt teszed, amiben örömöd is leled? Alkotva adni! - 
+
+Így jött, mint megoldás, válaszként kérdésemre, a dédelgetett régi nagy álmom, a 
+
+ruhatervezés. 
+
+Minden nő szeret szép ruhákban járni, magabiztosságot sugárzóan csinosan öltözködni.
+
+Tudom, hogy egy nagyszerű ruhadarab csodákra képes!
+
+Jövőképünk, hitvallásunk és küldetésünk is ebből a forrásból fakad! 
+
+Fedezd fel önmagad általunk és mutasd meg bátran a világnak!"
+  

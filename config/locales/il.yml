@@ -1,0 +1,58 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+il:
+  hello: "Hello world"
+  welcome: "Welcome"
+  #NAVBAR
+  Homepage: "עמוד בית"
+  About: "מי אנחנו"
+  Gallery: "תמונות"
+  Contact: "צור קשר"
+  Welcome: "ברוכים הבאים, ברוכות הבאות"
+#CONTENT
+  about1: "ברוכים הבאים, ברוכות הבאות!
+
+קודם כל תודה רבה לתשומת לבכם מציגה ומכבדת את המוצרים של אופנת בוגאקו ועולם שלה.
+
+בוגאקו יותר ממותג, זה גם הרגשה. זה תחושה שמגלה את הפנים האמתיות שלך לעולם ומציאות שלך.
+
+אני, היוצרת של אופנת בוגאקו בעלת מחשבה על תרומה לאטרקטיביות חלמתי על זה מאז הילדותי. ידעתי שאני לא 
+
+יכולה להציע עזרתי לכל אחד אבל רציתי לתת את הכי תוהה וחפצתי הקסמה לחיוך בפנים ולבבות.
+
+השנים עברו ואני חיפשתי את הפתרון. ופתאום, בבוקר התעוררתי עם שאלה : מדוע את לא עושה מה ממשה את 
+
+באמת נהנה? וזה הוא  לתת יצירה.
+
+כך מצאתי את התשובה לשאלה שלי : החלום הגדול שלי מהחיים הוא לעצב אופנה.
+
+כל אישה אוהבת ללבוש בגדים נהדרים  ולהאיר בטחון עצמי.
+
+אני יודעת שבגד נהדר יכול לגרום לנס.
+
+המקור ראית העתיד שלנו, אמונה ומשימה פה. 
+
+בכבוד רב 
+
+הלנה ברנאר"
+  
+
