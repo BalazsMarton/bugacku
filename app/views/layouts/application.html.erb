@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Bugac</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,7 +13,7 @@
 <%= render "layouts/navbar" %>
 
 <content>
-
+<div id="tartalom-wrapper">
 <p class="pull-left" id="local-teszt">
 <b>I18n.locale:</b> 
 <%= I18n.locale %>
@@ -40,6 +41,7 @@
 
 </div>
 
+</div>
 </content>
 
 <%= render "layouts/footer" %>
