@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'jquery-turbolinks'
+gem 'light_gallery_rails', git: 'https://github.com/stNicolaas/light-gallery-rails.git' 
 gem 'pg'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
