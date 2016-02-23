@@ -3,49 +3,67 @@ body{
 	background-color:#1A1C1B;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color:white;
-	text-decoration: none;
-}
-
-h1{
-color:white;
-}
-
-p{
-	color:white;
-}
-
 #full-navbar{
-	background-color: rgba(255,255,255,0.3);
+background-color: rgba(255,255,255,0.3);
+
+	ul li {
+		a {
+			color:#D8D8D8;
+			font-weight: bold;
+			text-decoration: none;
+			transition:1s;
+			font-size: 1em;
+
+			&:hover {
+				color:#e5c100;
+			}
+		}
+	}
 }
+
+
+
+
 
 #tartalom-wrapper{
-padding: 60px 0 25px 0;
-min-height:100vh;
-}
+	padding: 60px 0 25px 0;
+	min-height:100vh;
+	
+	#myCarousel{
+	margin-left: -15px;
+	margin-right:-15px;
+	}
 
-#tartalom{
+	#tartalom{
 	background-color: rgba(255,255,255,0.3);
 	min-height:50vh;
+
+		h1{
+			color:white;
+		}
+		p{
+			color:white;
+		}
+		#welcome{
+			padding:50px 50px 50px 50px;
+		}
+	}
 }
 
-#welcome{
-	padding:50px 50px 50px 50px;
-}
+	#local-teszt{
+		color: white;
+	}
 
-#local-teszt{
-	color: white;
-}
 
-#myCarousel{
-margin-left: -15px;
-margin-right:-15px;
 
-}
 
-.gallery-thumb{
-	max-height:100px;
+#lightGallery li {
+	list-style-type:none;
+
+	img {
+	max-height:240px;
+	padding: 10px 0 10px 0;
+	}
 }
 
 /*FOOTER*/
