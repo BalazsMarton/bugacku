@@ -37,6 +37,7 @@ background-color: rgba(255,255,255,0.3);
 	#tartalom{
 	background-color: rgba(255,255,255,0.3);
 	min-height:50vh;
+	border-radius: 0px 30px 30px 30px;
 
 		h1{
 			color:white;
@@ -61,9 +62,16 @@ background-color: rgba(255,255,255,0.3);
 	list-style-type:none;
 
 	img {
+	border-radius: 0 30px 30px 30px;
 	max-height:240px;
 	padding: 10px 0 10px 0;
 	}
+}
+
+/*PRELOADING*/
+html.turbolinks-progress-bar::before {
+  background-color: #e5c100 !important;
+  height: 8px !important;
 }
 
 /*FOOTER*/
