@@ -6,15 +6,54 @@ body{
 }
 
 #full-navbar{
-background-color: rgba(0,0,0,0.3);
+background-color: rgba(0,0,0,0.7);
+border-bottom:3px solid #937F4A;
+
+	.navbar-brand{
+	background-image: url("/img/logo50px.png");
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   margin-left:5px;
+   margin-top: 2.5px;
+   height: 45px;
+   width:260px;
+	}
+
+	.navbar-collapse{
+		border-top:none;
+	
+	}
+
+	.navbar-toggle{
+		border-color:#937F4A;
+
+		&:hover {
+			background-color:rgba(255,255,255,0.2);
+		}
+
+		&:focus {
+			background-color:rgba(255,255,255,0.2);
+		}
+
+		.icon-bar{
+			background-color:#937F4A;
+		}
+	}
+
+	.dropdown-menu{
+		background-color: rgba(0,0,0,0.7);
+	
+		
+	}
 
 	ul li {
 		a {
-			color:#D8D8D8;
+			color:#937F4A;
 			font-weight: bold;
 			text-decoration: none;
 			transition:1s;
-			font-size: 1em;
+			font-size: 1.2em;
 
 			&:hover {
 				color:#e5c100;
@@ -37,7 +76,7 @@ background-color: rgba(0,0,0,0.3);
 	}
 
 	#tartalom{
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.7);
 	min-height:50vh;
 	border-radius: 0px 30px 30px 30px;
 
@@ -46,6 +85,7 @@ background-color: rgba(0,0,0,0.3);
 		}
 		p{
 			color:white;
+			font-size: 1.25em;
 		}
 		#welcome{
 			padding:50px 50px 50px 50px;
@@ -72,29 +112,28 @@ background-color: rgba(0,0,0,0.3);
 
 /*PRELOADING*/
 html.turbolinks-progress-bar::before {
-  background-color: #e5c100 !important;
-  height: 8px !important;
+  background-color: #937F4A !important;
+  height: 5px !important;
 }
 
 /*FOOTER*/
 footer{
-  -moz-box-shadow:    -3px 0px 3px 3px #ccc;
+/*  -moz-box-shadow:    -3px 0px 3px 3px #ccc;
   -webkit-box-shadow: -3px 0px 3px 3px #ccc;
-  box-shadow:         -3px 0px 3px 3px #ccc;
+  box-shadow:         -3px 0px 3px 3px #ccc;*/
   padding-top:10px;
   height:10%;
   font-size:18px;
   color:white;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
+  border-top:3px solid #937F4A;
+
+  .container-fluid{
+  	
+  }
+
+  p{
+  	color:#937F4A;
+  }
 }
 
-.navbar-brand{
-	background-image: url("/img/logo50px.png");
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
-   margin-left:5px;
-   margin-top: 2.5px;
-   height: 45px;
-   width:260px;
-}
