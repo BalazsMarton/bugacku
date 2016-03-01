@@ -9,3 +9,9 @@ $(document).ready(function() {
     $('.navbar-toggle').toggleClass('rotate2');
  }); 
 });
+
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+});
