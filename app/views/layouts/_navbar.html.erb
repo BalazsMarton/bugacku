@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top" id="full-navbar">
-<div class="container-fluid container" id="custom-navbar">
+<div class="container-fluid" id="custom-navbar">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle rotate2" data-toggle="collapse" data-target="#myNavbar">
       </button>
@@ -11,28 +11,10 @@
 		<li  id="navbar-box"><%= link_to t(:About), about_path %></li>
 		<li  id="navbar-box"><%= link_to t(:Gallery), gallery_path %></li>
 		<li  id="navbar-box"><%= link_to t(:Contact), contact_path %></li>
-		<li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span><span class="caret"></span></a>
-		<ul class="dropdown-menu">
-                  <li>
-                  <p >
-<%= link_to('HU', {locale: :hu}, {:class => 'flag-hu'}) %>
-|
-<%= link_to('EN', {locale: :en}, {:class => 'flag-en'}) %>
-|
-<%= link_to('DE', {locale: :de}, {:class => 'flag-de'}) %>
-|
-<%= link_to('FR', {locale: :fr}, {:class => 'flag-en'}) %>
-|
-<%= link_to('RU', {locale: :ru}, {:class => 'flag-en'}) %>
-|
-<%= link_to('AL', {locale: :al}, {:class => 'flag-en'}) %>
-|
-<%= link_to('IL', {locale: :il}, {:class => 'flag-en'}) %>
-					</p>
-					</li>
-    </ul>
-	<li>
+		<li  data-toggle="modal" data-target="#myModal"><a class="text-uppercase">
+		<span class="glyphicon glyphicon-globe"></span> (<%= I18n.locale %>)
+		</a><li>
 	</div>
 </div>
 </nav>
+<%= render "layouts/localization" %>
