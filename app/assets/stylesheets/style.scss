@@ -59,13 +59,7 @@ border-bottom:3px solid #937F4A;
 	}
 
 	.navbar-toggle{
-		background-image: url("/img/bb30px.png");
-		-moz-background-size: cover;
-        -webkit-background-size: cover;
-   		background-size: cover;
-		border:none;
-		height:30px;
-		width:43px;
+		border-color:#937F4A;
 
 
 		&:hover {
@@ -190,7 +184,7 @@ border-bottom:3px solid #937F4A;
 
 /*GALERIA*/
 #lightGallery{ 
-	
+	margin:0;
 	padding:40px;
 
 	li {
@@ -229,6 +223,11 @@ footer{
   color:#444;
   background-color: rgba(0,0,0,0.8);
   border-top:3px solid #937F4A;
+  
+  #footer-logo{
+  	margin: 0 auto;
+	max-height:80px;
+  }
 
   .container-fluid{
   	
@@ -240,15 +239,53 @@ footer{
 }
 
 /*teszt*/
+button.navbar-toggle{
+	padding-right:0px;
+}
+
 .rotate {
-    transform: rotate(-180deg);
-    /*transform: rotate(180deg);*/
-    transition: .5s;
-}
-.rotate2 {
+  border: none;
+  background: transparent !important;
+  
+  &:hover {
+    background: transparent !important;
+  }
+
+  .icon-bar {
+    width: 22px;
+  }
+  .top-bar {transition:0.2s;
     transform: rotate(0deg);
-    transition: .5s;
-}
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 1;
+  }
+  .bottom-bar {transition:0.2s;
+    transform: rotate(0deg);
+    transform-origin: 10% 90%;
+  }}
+
+  .rotate2 {
+  	border: none;
+  background: transparent !important;
+  
+  &:hover {
+    background: transparent !important;
+  }
+    .top-bar {transition:0.2s;
+      transform: rotate(45deg); 
+      transform-origin: 10% 10%;    
+    }
+    .middle-bar {
+      opacity: 0;
+    }
+    .bottom-bar {transition:0.2s;
+      transform: rotate(-45deg);
+      transform-origin: 10% 90%;
+    }
+  }
+
 
 /*modal-teszt*/
 .modal {
