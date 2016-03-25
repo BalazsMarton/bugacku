@@ -39,7 +39,7 @@ body{
 /*NAVBAR*/
 #full-navbar{
 font-family: "OpenSans-CondBold";
-background-color: rgba(0,0,0,0.8);
+background-color: rgba(0,0,0,0.9);
 border-bottom:3px solid #937F4A;
 
 	.navbar-brand{
@@ -107,7 +107,9 @@ border-bottom:3px solid #937F4A;
 	min-height:100vh;
 	
 	#myCarousel{
-
+	img{
+		margin: 0 auto;
+	}
 	}
 
 	#tartalom{
@@ -165,11 +167,11 @@ border-bottom:3px solid #937F4A;
 }
 
 #about-pres{
-	padding:10px;
+	padding:0 10px 0 10px;
 	min-height:400px;
 	background-color: rgba(0,0,0,0);
 	text-align:center;
-	
+
 	h1{
 
 	}
@@ -214,20 +216,18 @@ html.turbolinks-progress-bar::before {
 /*FOOTER*/
 footer{
   font-family: "OpenSans-CondBold";
-/*  -moz-box-shadow:    -3px 0px 3px 3px #ccc;
-  -webkit-box-shadow: -3px 0px 3px 3px #ccc;
-  box-shadow:         -3px 0px 3px 3px #ccc;*/
   padding-top:10px;
-  height:10%;
   font-size:1.2em;
   color:#444;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.9);
   border-top:3px solid #937F4A;
   
   #footer-logo{
   	margin: 0 auto;
 	max-height:80px;
   }
+
+
 
   .container-fluid{
   	
@@ -288,20 +288,6 @@ button.navbar-toggle{
 
 
 /*modal-teszt*/
-
-button.close{
-	.top-bar {
-      transform: rotate(45deg); 
-      transform-origin: 10% 10%;    
-    }
-    .middle-bar {
-      opacity: 0;
-    }
-    .bottom-bar {
-      transform: rotate(-45deg);
-      transform-origin: 10% 90%;
-    }
-  }
 
 .modal {
   	text-align: center;
