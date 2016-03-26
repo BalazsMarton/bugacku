@@ -13,21 +13,32 @@
       </div>
       
       <div class="modal-body">
-                          <p >
-<%= link_to('HU', {locale: :hu}, {:class => 'flag-hu'}) %>
-|
-<%= link_to('EN', {locale: :en}, {:class => 'flag-en'}) %>
-|
-<%= link_to('DE', {locale: :de}, {:class => 'flag-de'}) %>
-|
-<%= link_to('FR', {locale: :fr}, {:class => 'flag-en'}) %>
-|
-<%= link_to('RU', {locale: :ru}, {:class => 'flag-en'}) %>
-|
-<%= link_to('AL', {locale: :al}, {:class => 'flag-en'}) %>
-|
-<%= link_to('IL', {locale: :il}, {:class => 'flag-en'}) %>
-          </p>
+      <div id="row">
+      <div class="col-xs-12 col-sm-4">
+      <p>EUROPE</p>
+      <ul>
+      <li>
+<%= link_to('HUNGARY', {locale: :hu}, {:class => 'flag-hu'}) %></li>
+<li>
+<%= link_to('UNITED KINGDOM', {locale: :en}, {:class => 'flag-en'}) %></li>
+<li>
+<%= link_to('DEUTSCHLAND', {locale: :de}, {:class => 'flag-de'}) %></li>
+<li>
+<%= link_to('FRANCE', {locale: :fr}, {:class => 'flag-en'}) %></li>
+ </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+          <p>OTHERS</p>
+      <ul>
+<li>
+<%= link_to('РОССИЯ', {locale: :ru}, {:class => 'flag-en'}) %></li>
+<li>
+<%= link_to('ALBANIA', {locale: :al}, {:class => 'flag-en'}) %></li>
+<li>
+<%= link_to('ISRAEL', {locale: :il}, {:class => 'flag-en'}) %></li>
+</ul>
+      </div>
+          </div>
       </div>
       
       <div class="modal-footer">
