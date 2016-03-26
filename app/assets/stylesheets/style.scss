@@ -294,10 +294,11 @@ button.navbar-toggle{
 }
 
 .modal-header{
-	border:none;
+	border-bottom:1px solid #cbcbcb;
 }
 
 .modal-content{
+	padding:10px;
 	box-shadow: 0 0 0 2px #937F4A, inset 0 0 0 1px #937F4A;
 	border:3px solid transparent;
 	border-radius: 0px;
