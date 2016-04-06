@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root :to => 'page#index'
   get 'home' => 'page#index'
   get 'about' => 'page#about'
+  get 'clothes' => 'page#clothes'
   get 'gallery' => 'page#gallery'
   get 'contact' => 'page#contact'
   # The priority is based upon order of creation: first created -> highest priority.
